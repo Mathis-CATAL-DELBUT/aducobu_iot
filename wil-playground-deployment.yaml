@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wil-playground-deployment
+  name: wil-playground
 spec:
   selector:
     matchLabels:

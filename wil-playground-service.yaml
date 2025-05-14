@@ -8,5 +8,7 @@ spec:
     - name: "http"
       port: 80
       targetPort: 8888
+      nodePort: 8888
+  type: NodePort
   selector:
     app: wil-playground
